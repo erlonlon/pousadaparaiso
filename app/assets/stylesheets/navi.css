@@ -84,7 +84,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 /* ----------------------------------------------Column Navigation-------------------------------------*/
 
-#column .subnav{display:block; width:250px; padding:25px; background-color:#1F1F1F; margin-bottom:30px;}
+#column .subnav{display:block; width:250px; padding:25px; background-color:#E8E8E8; margin-bottom:30px;}
 
 #column .subnav h2{
 	margin:0 0 20px 0;
@@ -93,7 +93,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	font-weight:normal;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#666666;
-	background-color:#1F1F1F;
+	background-color:#E8E8E8;
 	line-height:normal;
 	border-bottom:1px dashed #666666;
 	}
@@ -116,12 +116,12 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	margin:0;
 	padding:5px 10px 5px 20px;
 	color:#666666;
-	background:url("../images/purple_file.gif") 10px center no-repeat #1F1F1F;
+	background:url("../images/purple_file.gif") 10px center no-repeat #E8E8E8;
 	text-decoration:none;
 	border-bottom:1px dotted #666666;
 	}
 
-#column .subnav a:hover{color:#A97891; background-color:#161616;}
+#column .subnav a:hover{color:#63B6D9; background-color:#E8E8E8;}
 
 #column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url("../images/white_file.gif") no-repeat #1F1F1F;}
 #column .subnav ul ul a{padding-left:40px; background-position:30px center;}

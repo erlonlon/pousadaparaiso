@@ -1,0 +1,54 @@
+<h1>Contato</h1>
+<%= form_for(@contact) do |f| %>
+<% if @contact.errors.any? %>
+<div id="error_explanation">
+	<h2 style="color: #FF0000"><%= pluralize(@contact.errors.count, "error - ") %> Não foi possível salvar o registro, reveja os campos:</h2>
+
+	<ul>
+		<% @contact.errors.full_messages.each do |msg| %>
+		<li style="color:#FF0000 ">
+			<%= msg %>
+		</li>
+		<% end %>
+	</ul>
+</div>
+<% end %>
+
+<div id="respond">
+
+	<div class="field">
+		<%= f.label :Nome %>
+		<br />
+		<%= f.text_field :nome %>
+	</div>
+
+	<div class="field">
+		<%= f.label :Telefone %>
+		<br />
+		<%= f.text_field :telefone %>
+	</div>
+
+	<div class="field">
+		<%= f.label :Email %>
+		<br />
+		<%= f.text_field :email %>
+	</div>
+
+	<div class="field">
+		<%= f.label :Mensagem %>
+		<br />
+		<%= f.text_area :conteudo %>
+	</div>
+
+	<div class="field">
+		
+		
+		<%= f.datetime_select :data_cadastro %>
+	</div>
+	<div class="actions">
+		<%= f.submit 'Enviar contato'%>
+	</div>
+
+</div>
+
+<% end %>

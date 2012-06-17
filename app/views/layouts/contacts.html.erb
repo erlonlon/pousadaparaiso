@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Pousada Paraiso do Pontal</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+  <head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	  <title>contacts.html</title>
+	   <title>Pousada Paraiso do Pontal</title>
   <%= stylesheet_link_tag    "layout", :media => "all" %>
   <%= javascript_include_tag "jquery-1.4.1.min" %>
   <%= javascript_include_tag "jquery.waterwheelCarousel.setup" %>
   <%= javascript_include_tag "jquery.waterwheelCarousel" %>
   <%= csrf_meta_tags %>
-</head>
-
-<body id="top">
-	<p style="color: green"><%= flash[:notice]%></p>
+  </head>
+ <body id="top">
+ 	<p style="color: green"><%= flash[:notice]%></p>
 <div class="wrapper col1">
   <div id="header">
-    <div class="fl_left">
+     <div class="fl_left">
       <h1><a href="home">Pousada Paraíso do Pontal</a></h1>
       <p>Atendimento personalizado</p>
     </div>
@@ -36,7 +38,7 @@
            
           </ul>
         </li>
-        <li class="last"><a href="#">Reserva</a>
+        <li class="last"><a href="#">Reservar</a>
         	
         	 <ul>
             <li><a href="#">Promoções</a></li>
@@ -50,45 +52,61 @@
       <form action="#" method="post">
         <fieldset>
           <legend>Site Search</legend>
-          <input type="text" value="Buscar no web site&hellip;"  onfocus="this.value=(this.value=='Buscar no web site&hellip;')? '' : this.value ;" />
-          <input type="submit" name="go" id="go" value="Buscar" />
+          <input type="text" value="Search Our Website&hellip;"  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="submit" name="go" id="go" value="Search" />
         </fieldset>
       </form>
-  
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<div class="wrapper col4">
+  <div id="container">
+    <div id="content">
+     
+      <%= yield %>
+        
+     
+    
+     
+    </div>
+    <div id="column">
+      <div class="subnav">
+        <h2>Menu Navegação</h2>
+        <ul>
+          <li><a href="home">Home</a></li>
+          <li><a href="/contacts">Contato</a>
+            
+          </li>
+          <li><a href="#">Como chegar</a>
+           
+          </li>
+          <li><a href="#">Localidade</a></li>
+            <li><a href="#">Reserva</a>
+<ul>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Tarifas</a></li>
+           
+          </ul>
+
+        </ul>
+      </div>
+      <div class="holder">
+        <h2 class="title"><img src="images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
+        <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque.</p>
+        <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+      </div>
+      
+     
     </div>
     <br class="clear" />
   </div>
 </div>
 <!-- ####################################################################################################### -->
-<div class="wrapper col3">
-  <div id="waterwheelCarousel">
-  	 <img src="images/waterwheelCarousel/f7.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/f10.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p3.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p6.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p9.jpg" width="400" height="200" alt="" />
-   
-    <img src="images/waterwheelCarousel/p2.jpg" width="400" height="200" alt="" />   
-      <img src="images/waterwheelCarousel/pousada.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p1.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p4.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p8.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/p7.jpg" width="400" height="200" alt="" />
-    <img src="images/waterwheelCarousel/f24.jpg" width="400" height="200" alt="" />
-     <img src="images/waterwheelCarousel/f23.jpg" width="400" height="200" alt="" />
-  </div>
-</div>
-<!-- ####################################################################################################### -->
-<div class="wrapper col4">
-	
-	
-   <%= yield %>
-   
-   
-</div>
-<!-- ####################################################################################################### -->
 <div class="wrapper col5">
-  <div id="footer">
+
+
+ <div id="footer">
     <div class="footbox twitter">
       <h2>Últimas do Twitter</h2>
       <ul>
@@ -135,10 +153,11 @@
   </div>
   
   
+  
 </div>
 <!-- ####################################################################################################### -->
 <div class="wrapper col6">
-  <div id="copyright">
+   <div id="copyright">
     <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved - <a href="#">Pousada Paraíso do Pontal &hellip; </a></p>
       <p class="fl_left"> WebMaster &hellip; <a href="http://eboxbrasil.com.br" target="_blank" >Erlon Carlos</a></p>
     <p class="fl_right">Template by. <a href="http://www.os-templates.com/" target="_blank" title="Free Website Templates">OS Templates</a></p>

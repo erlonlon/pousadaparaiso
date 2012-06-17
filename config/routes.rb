@@ -1,5 +1,7 @@
 Pousadaparaiso::Application.routes.draw do
   
+  resources :contacts
+
   resources :home
   root :to => 'home#index'
   # The priority is based upon order of creation:

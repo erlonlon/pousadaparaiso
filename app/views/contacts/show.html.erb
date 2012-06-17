@@ -1,0 +1,30 @@
+<h1 id="notice" style="color: #00CD66"><%= notice %></h1>
+
+<p>
+  <b>Nome:</b>
+  <%= @contact.nome %>
+</p>
+
+<p>
+  <b>Telefone:</b>
+  <%= @contact.telefone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @contact.email %>
+</p>
+
+<p>
+  <b>Conteudo:</b>
+  <%= @contact.conteudo %>
+</p>
+
+<p>
+  <b>Data cadastro:</b>
+  <%= @contact.data_cadastro %>
+</p>
+
+
+<%= link_to 'Editar', edit_contact_path(@contact) %> |
+<%= link_to 'Voltar', contacts_path %>
