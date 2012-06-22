@@ -12,7 +12,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	margin:0;
 	padding:0;
 	font-size:14px;
-	font-weight:normal;
+	font-weight:bold ;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	}
 
@@ -28,7 +28,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	margin:0;
 	padding:15px 20px;
 	color:#FFFFFF;
-	background-color:#63B6D9;
+	background-color:#FF0000;
 	
 	}
 
@@ -41,7 +41,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 #topnav li a:hover, #topnav ul li.active a{
 	color:#525A5B;
-	background-color:#B9E9FB;
+	background-color:#CFCFCF;
 	
 	}
 	
@@ -51,14 +51,14 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	margin:0;
 	padding:7px 10px;
 	font-size:12px;
-	font-weight:normal;
+	font-weight:bold ;
 	color:#525A5B;
-	background-color:#B9E9FB;
+	background-color:#FF0000;
 	}
 	
 #topnav li li a:hover{
 	color:#FFFFFF;
-	background-color:#63B6D9;
+	background-color:#CFCFCF;
 	}
 
 #topnav li ul{
@@ -121,7 +121,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	border-bottom:1px dotted #666666;
 	}
 
-#column .subnav a:hover{color:#63B6D9; background-color:#E8E8E8;}
+#column .subnav a:hover{color:#FF0000; background-color:#E8E8E8;}
 
 #column .subnav ul ul a, #column .subnav ul ul ul a, #column .subnav ul ul ul ul a, #column .subnav ul ul ul ul ul a{background:url("../images/white_file.gif") no-repeat #1F1F1F;}
 #column .subnav ul ul a{padding-left:40px; background-position:30px center;}

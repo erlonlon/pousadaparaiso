@@ -12,7 +12,7 @@
   <%= csrf_meta_tags %>
   </head>
  <body id="top">
- 	<p style="color: green"><%= flash[:notice]%></p>
+ 
 <div class="wrapper col1">
   <div id="header">
      <div class="fl_left">
@@ -81,7 +81,14 @@
           <li><a href="#">Como chegar</a>
            
           </li>
-          <li><a href="#">Localidade</a></li>
+          <li><a href="#">Localidade</a>
+          	  <ul>
+            <li><a href="#">Atividades</a></li>
+            <li><a href="#">Eventos</a></li>
+           
+          </ul>
+          	
+          </li>
             <li><a href="#">Reserva</a>
 <ul>
             <li><a href="#">Promoções</a></li>

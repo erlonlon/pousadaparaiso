@@ -20,7 +20,7 @@ input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", 
 	padding:5px;
 	color:#B6B6B6;
 	background-color:#151515;
-	border:1px solid #63B6D9;
+	border:1px solid #CFCFCF;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;
 	}
@@ -32,7 +32,7 @@ input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", 
 	padding:4px 0;
 	text-transform:uppercase;
 	color:#FFFFFF;
-	background-color:#63B6D9;
+	background-color:#CFCFCF;
 	cursor:pointer;
 	font-weight:bold;
 	}
@@ -73,7 +73,7 @@ input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", 
 	padding:5px;
 	color:#FFFFFF;
 	background-color:#2684B7;
-	border:1px solid #1C5E82;
+	border:1px solid #CFCFCF;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;
 	}
