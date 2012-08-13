@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo: MyString
+  data_cadastro: 2012-08-05
+
+two:
+  titulo: MyString
+  data_cadastro: 2012-08-05
